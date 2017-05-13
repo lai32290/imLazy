@@ -2,8 +2,7 @@
 
 `imLazy` is a simple library to let your images lazier, it's a library to do image Lazy Loader, quite simple.
 
-![Screenshot]
-(http://i.imgur.com/hoaqZC8.gif)
+![Screenshot](http://i.imgur.com/hoaqZC8.gif)
 
 ## Requirement
 
