@@ -36,7 +36,7 @@ Then use it in your Javascript code:
 const img = document.querySelector('img');
 const imgUrl = 'http://bit.ly/2qgUBr3';
 
-imLazy(img, imgUrl);
+new imLazy(img, imgUrl);
 ```
 
 ## Why I did with Javascript Vanilla?
