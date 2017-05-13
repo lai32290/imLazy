@@ -3,6 +3,7 @@
 `imLazy` is a simple library to let your images lazier, it's a library to do image Lazy Loader, quite simple.
 
 ![Screenshot]
+(http://i.imgur.com/hoaqZC8.gif)
 
 ## Requirement
 
@@ -47,5 +48,3 @@ The reason why I did with Javascript Vanilla instead of `jQuery` or any other mo
 ## Features
 
 - Able to required by NodeJS, React, Angular or any other importable framework.
-
-(http://i.imgur.com/hoaqZC8.gif)
