@@ -1,7 +1,12 @@
 window.addEventListener('load', function() {
-    var img = document.querySelector('img');
-    var imgUrl = img.dataset.src;
     var container = document.querySelector('.container');
 
-    new imLazy(img, imgUrl, container, container);
+    var options = {
+        imageShowed: function() {  console.log('image showed'); },
+        imageHidden: function() { console.log('image hidden'); }
+    };
+
+    document.querySelectorAll('.image').forEach(function(item) {
+        new imLazy(item, item.dataset.src, container);
+    });
 });
