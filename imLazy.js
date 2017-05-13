@@ -22,7 +22,6 @@
         scrollEvent();
 
         function scrollEvent() {
-            console.log('scroll');
             var isShowing = self.isShowing();
 
             if(lastStatus != isShowing) {

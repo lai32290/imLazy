@@ -1,5 +1,4 @@
 window.addEventListener('load', function() {
-    var container = document.querySelector('.container');
 
     var options = {
         imageShowed: function() {  console.log('image showed'); },
@@ -7,6 +6,6 @@ window.addEventListener('load', function() {
     };
 
     document.querySelectorAll('.image').forEach(function(item) {
-        new imLazy(item, item.dataset.src, container);
+        new imLazy(item, item.dataset.src);
     });
 });
